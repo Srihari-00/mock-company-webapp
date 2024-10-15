@@ -71,4 +71,9 @@ public class SearchService {
         // Return results
         return itemList;
     }
+
+    // Break the search by returning an empty list
+    public Collection<ProductItem> searchProducts(String query) {
+        return Collections.emptyList(); // Breaking the search logic
+    }
 }
